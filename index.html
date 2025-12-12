@@ -6,19 +6,79 @@
     <title>Mad Libs</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<div class="form"></div>
 <body>
+    <div class="row"> 
+  <div class="small-7 medium-5 large-4 column end small-centered card">
+    <div class="card-top"><a href="#0">
+        <div class="overlay">
+          <h1>READ</h1>
+        </div></a><img class="card-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/324479/yeti.png"/></div>
+    <div class="triangle">
+      <div class="circle-button" id="circleDrop"><img class="close" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/324479/close.svg"/></div>
+    </div>
+    <div class="card-middle">
+      <p class="more">Last week, <span class="userInput">Name</span> and I decided to take a nice trip to the park.
+We were having a great time <span class="userInput">Verb'-ing'</span> through the grass when, quickly, a flock of angry birds swooped down and stole my backpack!
+"Yikes!", I shouted as the <span class="userInput">Adjective</span> creatures flew away.
+My friend chased after them, determined to get the bag back. They used their <span class="userInput">Object</span> to swat them out of the air. 
+When the birds finally gave up and dropped the bag, my friend laughed <span class="userInput">Adverb</span>.
+We counted exactly <span class="userIput">Number</span> feathers left on the ground. We were <span class="userInput">Emotion</span>. What a wild day!</p>
+    </div>
+    <div class="card-bottom text-center">
+      <h2 class="card-title">Story</h2>
+      <li>
+       <input type="text" name="2" class="question" id="adjective1" required autocomplete="off"/><br><br>
+       <label for=adjective1><span>Adjective</span></label>
+        </li>
+      <li>
+       <input type="text" name="3" class="question" id="noun1" required autocomplete="off"/><br><br>
+       <label for=noun1><span>Noun</span></label>
+        </li>
+      <li>
+       <input type="text" name="4" class="question" id="verbing1" required autocomplete="off"/><br><br>
+       <label for=verbing1><span>Verb'-ing'</span></label>
+        </li>
+      <li>
+       <input type="text" name="5" class="question" id="name1" required autocomplete="off"/><br><br>
+       <label for=name1><span>Name</span></label>
+        </li>
+      <li>
+       <input type="text" name="6" class="question" id="sound1" required autocomplete="off"/><br><br>
+       <label for=sound1><span>Sound</span></label>
+        </li>
+      <li>
+       <input type="text" name="7" class="question" id="adjective2" required autocomplete="off"/><br><br>
+       <label for=adjective2><span>Adjective</span></label>
+        </li>
+      <li>
+       <input type="text" name="8" class="question" id="object1" required autocomplete="off"/><br><br>
+       <label for=object1><span>Object</span></label>
+        </li>
+      <li>
+       <input type="text" name="9" class="question" id="verb1" required autocomplete="off"/><br><br>
+       <label for=verb1><span>Verb</span></label>
+        </li>
+      <li>
+       <input type="text" name="10" class="question" id="number1" required autocomplete="off"/><br><br>
+       <label for=number1><span>Number</span></label>
+        </li>
+      <li>
+       <input type="text" name="11" class="question" id="adverb1" required autocomplete="off"/><br><br>
+       <label for=adverb1><span>Adverb</span></label>
+        </li>
+      <li>
+       <input type="text" name="12" class="question" id="emotion1" required autocomplete="off"/><br><br>
+       <label for=emotion1><span>Emotion</span></label>
+        </li>
 
-
-    <p>Last week, my friend and I decided to take a nice trip to the park.
-We were having a great time running through the grass when, quickly, a flock of angry birds swooped down and stole my backpack!
-Yikes!, I shouted as the sparkly creatures flew away.
-My friend chased after them, determined to get the bag back. He used his giant drone to swat them out of the air. 
-When the birds finally gave up and dropped the bag, my friend laughed victoriously.
-We counted exactly 50 feathers left on the ground. What a wild day!</p>
-
-
+      <button class="bubbles">
+  <span class="text">Create Story</span>
+</button>
+    </div>
+  </div>
 </div>
+
+
     <script scr="script.js"></script>
 </body>
 </html>
