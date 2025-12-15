@@ -1,13 +1,8 @@
-//('#circleDrop').click(function(){
-  //'.card-middle').slideToggle();
-  //('.close').toggleClass('closeRotate');
-//});
+const storyButton = document.getElementById("story");
+storyButton.addEventListener("click", getWords);
+function getWords(){
+console.log(storyButton);
+};
 
-const downDrop=document.getElementById("circleDrop");
-console.log(downDrop);
-
-downDrop.addEventListener(click(function(){
-  $(".card-middle").slideToggle();
-  $(".close").toggleClass("closeRotate");
-
-}));
+var words=document.querySelectorAll('input[type="text"]');
+console.log(words);

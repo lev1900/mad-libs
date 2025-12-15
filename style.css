@@ -122,7 +122,7 @@ body, h1, h2, h3, h4, h5, h6, p {
 .bubbles {
   --c1: #ffffff; 
   --c2: #85daef;
-  --size-letter: 32px;
+  --size-letter: 20px;
   padding: 0.5em 1em;
   font-size: var(--size-letter);
 
