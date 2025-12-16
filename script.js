@@ -1,8 +1,14 @@
 const storyButton = document.getElementById("story");
+console.log(storyButton);
+
 storyButton.addEventListener("click", getWords);
 function getWords(){
-console.log(storyButton);
+var words=document.querySelectorAll('input[type="text"]');
+var placeholders =document.querySelectorAll('.userInput');
+
+placeholders.forEach((placeholder,index) => {
+    console.log(words[index]);
+});
 };
 
-var words=document.querySelectorAll('input[type="text"]');
-console.log(words);
+;
