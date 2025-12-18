@@ -8,7 +8,10 @@ var placeholders =document.querySelectorAll('.userInput');
 
 placeholders.forEach((placeholder,index) => {
     console.log(words[index]);
+
+     placeholder.innerHTML= words[index].value;
 });
 };
-
 ;
+
+
